@@ -128,7 +128,7 @@ train_gen, test_gen, nb_train_sample, nb_test_sample, num_classes = load_data()
 
 #Adding our Layers to the Model.
 
-#FC_Head = add_layer(Vgg16, num_classes)
+FC_Head = add_layer(Vgg16, num_classes)
 model = Model(inputs = Vgg16.input, outputs = FC_Head)
 
 
