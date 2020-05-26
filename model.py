@@ -35,7 +35,6 @@ def train_model(train_generator, validation_generator, nb_train_samples, nb_vali
                   optimizer = RMSprop(lr = 0.001),
                   metrics = ['accuracy'])
 
-
     history = model.fit_generator(
         train_generator,
         steps_per_epoch = nb_train_samples // batch_size,
