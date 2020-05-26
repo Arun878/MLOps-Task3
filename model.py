@@ -75,8 +75,8 @@ def load_my_model():
 
 
 def load_data():
-    train_data_dir = 'faceRecog/train/'
-    validation_data_dir = 'faceRecog/test/'
+    train_data_dir = 'Desktop/model/faceRecog/train/'
+    validation_data_dir = 'Desktop/model/faceRecog/test/'
 
     train_datagen = ImageDataGenerator(
           rescale=1./255,
