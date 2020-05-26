@@ -113,7 +113,7 @@ def load_data():
 
 #Increase Epochs to get better accuracy :)
 epochs = 1
-batch_size = 32
+batch_size = 16
 img_rows, img_cols = 224, 224
 input_shape = (img_rows, img_cols, 3)
 
