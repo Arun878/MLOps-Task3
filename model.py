@@ -30,7 +30,7 @@ def train_model(train_generator, validation_generator, nb_train_samples, nb_vali
     # we put our call backs into a callback list
     callbacks = [earlystop, checkpoint]
 
-    # We use a very small learning rate 
+    # We use a very small learning rate of 0.001
     model.compile(loss = 'categorical_crossentropy',
                   optimizer = RMSprop(lr = 0.001),
                   metrics = ['accuracy'])
