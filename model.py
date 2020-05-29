@@ -133,5 +133,5 @@ acc = train_model(train_gen, test_gen, nb_train_sample, nb_test_sample)
 
 #Printing the accuracy to acc.txt file
 f = open("acc.txt", "w")
-f.write(str(acc*100))
+f.write(str(acc * 100))
 f.close()
